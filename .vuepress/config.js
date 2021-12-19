@@ -1,6 +1,6 @@
 module.exports = {
-  title: "vuepress-theme-reco",
-  description: 'A simple and beautiful vuepress blog theme .',
+  title: "SwayJike的个人博客",
+  description: '欢迎进入SwayJike的个人博客',
   dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -11,13 +11,13 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/', icon: 'reco-home' },
       { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
-      { text: 'Docs', 
+      { text: 'Docs',
         icon: 'reco-message',
         items: [
           { text: 'vuepress-reco', link: '/docs/theme-reco/' }
         ]
       },
-      { text: 'Contact', 
+      { text: 'Contact',
         icon: 'reco-message',
         items: [
           { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' }
@@ -31,7 +31,7 @@ module.exports = {
         'plugin',
         'api'
       ]
-    },  
+    },
     type: 'blog',
     // 博客设置
     blogConfig: {
@@ -48,12 +48,12 @@ module.exports = {
       {
         title: '午后南杂',
         desc: 'Enjoy when you can, and endure when you must.',
-        email: '1156743527@qq.com',
+        email: '848988457@qq.com',
         link: 'https://www.recoluan.com'
       },
       {
-        title: 'vuepress-theme-reco',
-        desc: 'A simple and beautiful vuepress Blog & Doc theme.',
+        title: 'SwayJike的个人博客',
+        desc: '欢迎进入SwayJike的个人博客',
         avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
         link: 'https://vuepress-theme-reco.recoluan.com'
       },
@@ -67,13 +67,13 @@ module.exports = {
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
-    author: 'reco_luan',
+    author: 'SwayJike',
     // 作者头像
     authorAvatar: '/avatar.png',
     // 备案号
     record: 'xxxx',
     // 项目开始时间
-    startYear: '2017'
+    startYear: '2021'
     /**
      * 密钥 (if your blog is private)
      */
@@ -96,4 +96,4 @@ module.exports = {
   markdown: {
     lineNumbers: true
   }
-}  
+}
