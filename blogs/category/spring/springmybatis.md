@@ -1,6 +1,6 @@
 ---
 title: Spring 整合MyBatis
-date: 20121-12-20
+date: 2021-12-20
 tags:
 - Spring 整合MyBatis
 categories:

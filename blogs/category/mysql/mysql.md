@@ -1,6 +1,6 @@
 ---
 title: mysql笔记
-date: 20121-12-20
+date: 2021-12-20
 tags:
 - mysql笔记
 categories:

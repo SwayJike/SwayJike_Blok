@@ -1,6 +1,6 @@
 ---
 title: Vue生命周期详解
-date: 20121-12-20
+date: 2021-12-20
 tags:
 - Vue生命周期详解
 categories:
