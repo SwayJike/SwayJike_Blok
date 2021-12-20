@@ -8,28 +8,67 @@ module.exports = {
   ],
   theme: 'reco',
   themeConfig: {
+    //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+    huawei: true,
+    mode: 'dark',
+    modePicker: true,
     nav: [
-      { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
-      { text: 'Docs',
+      { text: '主页', link: '/', icon: 'reco-home' },
+      { text: '时间线', link: '/timeline/', icon: 'reco-date' },
+      { text: '联系',
         icon: 'reco-message',
         items: [
-          { text: 'vuepress-reco', link: '/docs/theme-reco/' }
-        ]
-      },
-      { text: 'Contact',
-        icon: 'reco-message',
-        items: [
-          { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' }
+          { text: 'GitHub', link: 'https://github.com/SwayJike/SwayJike_Blok', icon: 'reco-github' }
         ]
       }
     ],
     sidebar: {
-      '/docs/theme-reco/': [
-        '',
-        'theme',
-        'plugin',
-        'api'
+      '/blogs/category/spring/': [
+        'springannotation',
+        'springaop',
+        'springc3po',
+        'springioc',
+        'springmail',
+        'springmybatis',
+        'springtask',
+        'springtest',
+        'springtransation'
+      ],
+      '/blogs/category/html/': [
+        'html',
+        'regex'
+      ],
+      '/blogs/category/javascript/': [
+        'bom',
+        'circle',
+        'click',
+        'dom',
+        'func',
+        'jsfamily',
+        'jshelloworld',
+        'jstexiao',
+        'scope'
+      ],
+      '/blogs/category/linux/': [
+        'linux',
+      ],
+      '/blogs/category/mybatis/': [
+        'mybatis',
+      ],
+      '/blogs/category/mysql/': [
+        'mysql',
+      ],
+      '/blogs/category/springboot/': [
+        'springbootext',
+        'springbootnote'
+      ],
+      '/blogs/category/vue/': [
+        'lodash',
+        'qs',
+        'swiper',
+        'vue',
+        'vuelife',
+        'webpack'
       ]
     },
     type: 'blog',
@@ -37,11 +76,11 @@ module.exports = {
     blogConfig: {
       category: {
         location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: 'Category' // 默认 “分类”
+        text: '目录' // 默认 “分类”
       },
       tag: {
         location: 3, // 在导航栏菜单中所占的位置，默认3
-        text: 'Tag' // 默认 “标签”
+        text: '标签' // 默认 “标签”
       }
     },
     friendLink: [
@@ -73,7 +112,7 @@ module.exports = {
     // 备案号
     record: 'xxxx',
     // 项目开始时间
-    startYear: '2021'
+    startYear: 'spring'
     /**
      * 密钥 (if your blog is private)
      */
